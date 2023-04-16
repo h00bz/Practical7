@@ -18,10 +18,11 @@ namespace SMS.Web.Controllers
         // GET /student
         public IActionResult Index()
         {
+            var list=svc.GetStudents();
+
             // TBC - load students using service and pass to view
-           
             
-            return View();
+            return View(list);
         }
 
         // GET /student/details/{id}
@@ -30,9 +31,10 @@ namespace SMS.Web.Controllers
             // retrieve the student with specifed id from the service
             var s = svc.GetStudent(id);
 
+            if (s is null)
+                return NotFound();
             // TBC check if s is null and return NotFound()
             
-
             // pass student as parameter to the view
             return View(s);
         }
@@ -51,6 +53,7 @@ namespace SMS.Web.Controllers
             // complete POST action to add student
             if (ModelState.IsValid)
             {
+                svc.AddStudent(s);
                 // TBC call service AddStudent method using data in s
                 
                 return RedirectToAction(nameof(Index));
@@ -67,7 +70,8 @@ namespace SMS.Web.Controllers
             var s = svc.GetStudent(id);
 
             // TBC check if s is null and return NotFound()
-              
+             if (s is null)
+                return NotFound();
 
             // pass student to view for editing
             return View(s);
@@ -78,11 +82,11 @@ namespace SMS.Web.Controllers
         public IActionResult Edit(int id, Student s)
         {
             // complete POST action to save student changes
+
             if (ModelState.IsValid)
             {
                 // TBC pass data to service to update
-               
-
+                svc.UpdateStudent(s);
                 return RedirectToAction(nameof(Index));
             }
 
@@ -110,10 +114,16 @@ namespace SMS.Web.Controllers
         public IActionResult DeleteConfirm(int id)
         {
             // TBC delete student via service
+
+            svc.DeleteStudent(id);
+
+                // TBC pass data to service to update
+                return RedirectToAction(nameof(Index));
+  
+
+            // redisplay the form for editing as validation errors
            
-            
             // redirect to the index view
-            return RedirectToAction(nameof(Index));
         }
 
 

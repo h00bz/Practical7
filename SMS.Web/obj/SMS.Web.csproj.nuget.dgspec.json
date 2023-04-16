@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj": {}
+    "/Users/ahmed/Desktop/practicals/Practical7/SMS.Web/SMS.Web.csproj": {}
   },
   "projects": {
-    "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj": {
+    "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/SMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj",
+        "projectUniqueName": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/SMS.Data.csproj",
         "projectName": "SMS.Data",
-        "projectPath": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Practical-7/SMS.Data/obj/",
+        "projectPath": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/SMS.Data.csproj",
+        "packagesPath": "/Users/ahmed/.nuget/packages/",
+        "outputPath": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/Users/ahmed/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -63,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/ri9fcv848y3bkafmzn1lf04zwrnvyyd4-dotnet-sdk-7.0.102/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj": {
+    "/Users/ahmed/Desktop/practicals/Practical7/SMS.Web/SMS.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj",
+        "projectUniqueName": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Web/SMS.Web.csproj",
         "projectName": "SMS.Web",
-        "projectPath": "/home/runner/Practical-7/SMS.Web/SMS.Web.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/Practical-7/SMS.Web/obj/",
+        "projectPath": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Web/SMS.Web.csproj",
+        "packagesPath": "/Users/ahmed/.nuget/packages/",
+        "outputPath": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/Users/ahmed/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj": {
-                "projectPath": "/home/runner/Practical-7/SMS.Data/SMS.Data.csproj"
+              "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/SMS.Data.csproj": {
+                "projectPath": "/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/SMS.Data.csproj"
               }
             }
           }
@@ -123,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/ri9fcv848y3bkafmzn1lf04zwrnvyyd4-dotnet-sdk-7.0.102/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

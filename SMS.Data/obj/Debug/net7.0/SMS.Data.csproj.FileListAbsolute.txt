@@ -1,0 +1,12 @@
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/bin/Debug/net7.0/SMS.Data.deps.json
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/bin/Debug/net7.0/SMS.Data.dll
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/bin/Debug/net7.0/SMS.Data.pdb
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.csproj.AssemblyReference.cache
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.AssemblyInfoInputs.cache
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.AssemblyInfo.cs
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.csproj.CoreCompileInputs.cache
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.dll
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/refint/SMS.Data.dll
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/SMS.Data.pdb
+/Users/ahmed/Desktop/practicals/Practical7/SMS.Data/obj/Debug/net7.0/ref/SMS.Data.dll
